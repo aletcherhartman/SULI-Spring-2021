@@ -1,0 +1,13 @@
+name: parentconfig
+library: /Users/aletcher/swom/library/15 MW OWT FMECA SULI Spring 2021
+weather: alpha_ventus_weather_2002_2014_zeros.csv
+service_equipment: [ctv1.yaml,hlv_1.yaml,cabling.yaml,dsv.yaml,fsv.yaml] 
+layout: layout.csv
+inflation_rate: 0
+fixed_costs: fixed_costs.yaml 
+workday_start: 7
+workday_end: 19
+start_year: 2003
+end_year: 2005 # was 2012 changed to make symulation times faster during development 
+project_capacity: 1200 #MW
+

@@ -1,0 +1,20 @@
+﻿Subsystem,Failure,description,time,materials,equipment,operation_reduction,level,FRminUncertanty,FRmin,FRmean,FRmax,FRmaxUncertanty
+electrical_system,1,Converter,108,1190,CTV,0,1,0.009,0.01,0.325333333,0.812,0.8932
+electronic_control,1,Control,108,1190,CTV,0,1,0.0009,0.001,0.136666667,0.355,0.3905
+sensors,1,n/a,0,0,CTV,0,1,0,0,0,0,0
+hydraulic_system,1,hydraulic system,288,6549,SLN,0,2,0.0009,0.001,0.334666667,0.824,0.9064
+yaw_system,1,yaw bearing,500,14300,LCN,0,3,0.0009,0.001,0.056333333,0.162,0.1782
+rotor_blades,1,blades,500,14300,LCN,0,3,0.0009,0.001,0.155666667,0.456,0.5016
+mechanical_brake,1,n/a,0,0,CTV,0,1,0,0,0,0,0
+rotor_hub,1,hub,288,6549,SLN,0,2,0.0009,0.001,0.073666667,0.182,0.2002
+rotor_hub,2,pitch bearings,288,6549,SLN,0,2,0.0009,0.001,0.073666667,0.182,0.2002
+gearbox,1,n/a,0,0,CTV,0,1,0,0,0,0,0
+generator,1,cooling,108,1190,CTV,0,1,0.0009,0.001,0.018666667,0.052,0.0572
+generator,2,rotor,500,14300,LCN,0,3,0.0009,0.001,0.018666667,0.052,0.0572
+generator,3,stator,500,14300,LCN,0,3,0.0009,0.001,0.018666667,0.052,0.0572
+supporting_structure,1,nacelle,108,1190,CTV,0,1,0.0801,0.089,0.0905,0.092,0.1012
+supporting_structure,2,tower,108,1190,CTV,0,1,0.0801,0.089,0.0905,0.092,0.1012
+supporting_structure,3,transition piece,288,6549,SLN,0,2,0.0801,0.089,0.0905,0.092,0.1012
+supporting_structure,4,fixed foundation,500,14300,DSV,0,3,0.0801,0.089,0.0905,0.092,0.1012
+drive_train,1,main bearings,500,14300,LCN,0,3,0.0342,0.038,0.195666667,0.395,0.4345
+drive_train,2,mainshaft,288,6549,SLN,0,2,0.0342,0.038,0.195666667,0.395,0.4345

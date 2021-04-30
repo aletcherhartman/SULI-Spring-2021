@@ -1,0 +1,110 @@
+capacity_kw: 15000
+capex_kw: 1300  # need an updated value
+electrical_system: # converter in FMECA
+  name: electrical_system
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+electronic_control: # controller in FMECA
+  name: electronic_control
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+sensors: # not in FMECA => zeroed out
+  name: sensors
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+hydraulic_system: # Pitch and Yaw actuators FMECA
+  name: hydraulic_system
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+yaw_system: # Yaw bearing
+  name: yaw_system
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+rotor_blades: # blades FMECA
+  name: rotor_blades
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+mechanical_brake: # not in FMECA => zeroed out
+  name: mechanical_brake
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+rotor_hub: # Hub and pitch bearings FMECA
+  name: rotor_hub
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+gearbox: # not in FMECA => zeroed out
+  name: gearbox
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+generator: # Generator rotor, stator, and cooling FMECA
+  name: generator
+  maintenance:
+  - description: annual service
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+supporting_structure: # Nacelle, Tower, Transition piece, Foundation fixed or floating FMECA (only fixed f for now)
+  name: supporting_structure
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+drive_train: # Main Bearings, main shaft FMECA
+  name: drive_train
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:

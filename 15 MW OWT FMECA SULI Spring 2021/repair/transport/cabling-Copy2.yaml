@@ -1,0 +1,23 @@
+name: Cable Laying Vessel
+equipment_rate: 100000
+day_rate: 0  # cabling vessels include the technicians
+n_day_rate: 0
+hourly_rate: 0
+n_hourly_rate: 0
+start_month: 5
+start_day: 1
+end_month: 7
+end_day: 31
+start_year: 2002
+end_year: 2014
+onsite: False
+capability: [CAB]
+mobilization_cost: 625000  # 550,000 EUR rounded to 625,000 USD
+mobilization_days: 30
+speed: 26  # 14 knots rounded to 26 km/h
+max_windspeed_transport: 99
+max_windspeed_repair: 10
+max_waveheight_transport: 2  # GUESS
+max_waveheight_repair: 1
+workday_start: 7
+workday_end: 18

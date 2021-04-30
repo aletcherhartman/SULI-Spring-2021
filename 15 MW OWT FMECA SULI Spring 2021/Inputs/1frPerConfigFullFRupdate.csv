@@ -1,0 +1,20 @@
+﻿Subsystem,Failure,description,time,materials,equipment,operation_reduction,level,FR 0.0001,FR 0.001,FR 0.01,FR 0.1,FR 1
+electrical_system,1,Converter,108,1190,CTV,0,1,0.0001,0.001,0.01,0.1,1
+electronic_control,1,Control,108,1190,CTV,0,1,0.0001,0.001,0.01,0.1,1
+sensors,1,n/a,0,0,CTV,0,1,0,0,0,0,0
+hydraulic_system,1,hydraulic system,288,6549,SLN,0,2,0.0001,0.001,0.01,0.1,1
+yaw_system,1,yaw bearing,500,14300,LCN,0,3,0.0001,0.001,0.01,0.1,1
+rotor_blades,1,blades,500,14300,LCN,0,3,0.0001,0.001,0.01,0.1,1
+mechanical_brake,1,n/a,0,0,CTV,0,1,0,0,0,0,0
+rotor_hub,1,hub,288,6549,SLN,0,2,0.0001,0.001,0.01,0.1,1
+rotor_hub,2,pitch bearings,288,6549,SLN,0,2,0.0001,0.001,0.01,0.1,1
+gearbox,1,n/a,0,0,CTV,0,1,0,0,0,0,0
+generator,1,cooling,108,1190,CTV,0,1,0.0001,0.001,0.01,0.1,1
+generator,2,rotor,500,14300,LCN,0,3,0.0001,0.001,0.01,0.1,1
+generator,3,stator,500,14300,LCN,0,3,0.0001,0.001,0.01,0.1,1
+supporting_structure,1,nacelle,108,1190,CTV,0,1,0.0001,0.001,0.01,0.1,1
+supporting_structure,2,tower,108,1190,CTV,0,1,0.0001,0.001,0.01,0.1,1
+supporting_structure,3,transition piece,288,6549,SLN,0,2,0.0001,0.001,0.01,0.1,1
+supporting_structure,4,fixed foundation,500,14300,DSV,0,3,0.0001,0.001,0.01,0.1,1
+drive_train,1,main bearings,500,14300,LCN,0,3,0.0001,0.001,0.01,0.1,1
+drive_train,2,mainshaft,288,6549,SLN,0,2,0.0001,0.001,0.01,0.1,1

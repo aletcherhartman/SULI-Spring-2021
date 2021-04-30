@@ -1,0 +1,21 @@
+name: Field Support Vessel
+equipment_rate: 9300
+day_rate: 465  # 150,000($EUR) round up to $170,000 -> $465/day (ECN 2011)
+n_day_rate: 3  # maximum required techs from offshore base case
+hourly_rate: 125  # (Maples et al. 2013)
+n_hourly_rate: 0
+start_month: 5 #5
+start_day: 1
+end_month: 7 #6
+end_day: 30 #28
+start_year: 2002
+end_year: 2014
+onsite: false
+capability: SCN
+mobilization_cost: 0
+mobilization_days: 21
+speed: 22.22
+max_windspeed_transport: 99
+max_windspeed_repair: 99
+max_waveheight_transport: 1.5
+max_waveheight_repair: 1.5

@@ -1,0 +1,281 @@
+capacity_kw: 15000
+capex_kw: 1300  # need an updated value
+electrical_system: # converter in FMECA
+  name: electrical_system
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: converter
+electronic_control: # controller in FMECA
+  name: electronic_control
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: controler
+sensors: # not in FMECA => zeroed out
+  name: sensors
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: n/a
+hydraulic_system: # Pitch and Yaw actuators FMECA
+  name: hydraulic_system
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: hydraulic system
+yaw_system: # Yaw bearing
+  name: yaw_system
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: Yaw bearing
+rotor_blades: # blades FMECA
+  name: rotor_blades
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: blades
+mechanical_brake: # not in FMECA => zeroed out
+  name: mechanical_brake
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: n/a
+rotor_hub: # Hub and pitch bearings FMECA
+  name: rotor_hub
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: Hub
+    2:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: pitch bearings
+gearbox: # not in FMECA => zeroed out
+  name: gearbox
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0
+      shape: 0
+      time: 0
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0
+      level: 1
+      description: n/a
+generator: # Generator rotor, stator, and cooling FMECA
+  name: generator
+  maintenance:
+  - description: annual service
+    time: 60
+    materials: 18500
+    service_equipment: CTV
+    frequency: 365
+  failures:
+    1:
+      scale: 0.1333
+      shape: 1
+      time: 3
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 1
+      description: cooling system
+    2:
+      scale: 0.3333
+      shape: 1
+      time: 7.5
+      materials: 1000
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 2
+      description: generator rotor
+    3:
+      scale: 3.6363
+      shape: 1
+      time: 22
+      materials: 18500
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 3
+      description: generator stator
+supporting_structure: # Nacelle, Tower, Transition piece, Foundation fixed or floating FMECA (only fixed f for now)
+  name: supporting_structure
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0.1333
+      shape: 1
+      time: 3
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 1
+      description: Nacelle
+    2:
+      scale: 0.3333
+      shape: 1
+      time: 7.5
+      materials: 1000
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 2
+      description: Tower
+    3:
+      scale: 3.6363
+      shape: 1
+      time: 22
+      materials: 18500
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 3
+      description: Transition piece
+    4:
+      scale: 25
+      shape: 1
+      time: 26
+      materials: 73500
+      service_equipment: DSV
+      operation_reduction: 0.0
+      level: 4
+      description: Fixed Foundation
+drive_train: # Main Bearings, main shaft FMECA
+  name: drive_train
+  maintenance:
+  - description: n/a
+    time: 0
+    materials: 0
+    service_equipment: CTV
+    frequency: 0
+  failures:
+    1:
+      scale: 0.1333
+      shape: 1
+      time: 3
+      materials: 0
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 1
+      description: main bearing
+    2:
+      scale: 0.3333
+      shape: 1
+      time: 7.5
+      materials: 1000
+      service_equipment: CTV
+      operation_reduction: 0.0
+      level: 2
+      description: main shaft

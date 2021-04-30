@@ -1,0 +1,23 @@
+name: Jack-up Vessel
+equipment_rate: 136000  # 125,000($EUR) roud up to $140,000 USD (ECN 2011)
+day_rate: 465  # 150,000($EUR) round up to $170,000 USD -> $465/day (ECN 2011)
+n_day_rate: 6  # maximum required techs from offshore base case (ECN 2011)
+hourly_rate: 125  # (Maples et al. 2013)
+n_hourly_rate: 0
+start_month: 5
+start_day: 1
+end_month: 7
+end_day: 30
+start_year: 2002 #1996
+end_year: 2014 #2015
+onsite: false
+capability: LCN
+mobilization_cost: 500000
+mobilization_days: 60
+speed: 12.96
+max_windspeed_transport: 10
+max_windspeed_repair: 10
+max_waveheight_transport: 2
+max_waveheight_repair: 2
+workday_start: 0
+workday_end: 24
